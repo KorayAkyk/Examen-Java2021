@@ -9,9 +9,9 @@
         <property name="hibernate.connection.password">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
-        <mapping class="fr.valentincroset.devoir.model.Hotel"/>
-        <mapping class="fr.valentincroset.devoir.model.Chambre"/>
-        <mapping class="fr.valentincroset.devoir.model.Directeur"/>
-        <mapping class="fr.valentincroset.devoir.model.Salarie"/>
+        <mapping class="korayakyurek.Model.Hotel"/>
+        <mapping class="korayakyurek.Model.Chambre"/>
+        <mapping class="korayakyurek.Model.Directeur"/>
+        <mapping class="korayakyurek.Model.Salarie"/>
     </session-factory>
 </hibernate-configuration>
